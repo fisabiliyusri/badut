@@ -1,0 +1,12 @@
+#!/bin/bash
+source /usr/local/sbin/base-script
+
+clear
+echo -e "$TITLE"
+echo -e " Welcome! "
+echo -e ""
+echo -e " Commands:"
+echo -e "  accounts"
+echo -e "  options"
+echo -e "  server"
+echo -e ""

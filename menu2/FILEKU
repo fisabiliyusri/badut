@@ -1,0 +1,38 @@
+wget -O /usr/bin/accounts https://halucok.me/menu2/accounts && chmod +x /usr/bin/accounts
+wget -O /usr/bin/base-port https://halucok.me/menu2/base-port && chmod +x /usr/bin/base-port
+wget -O /usr/bin/base-port-WC https://halucok.me/menu2/base-port-WC && chmod +x /usr/bin/base-port-WC
+wget -O /usr/bin/base-script https://halucok.me/menu2/base-script && chmod +x /usr/bin/base-script
+wget -O /usr/bin/bench-network https://halucok.me/menu2/bench-network && chmod +x /usr/bin/bench-network
+wget -O /usr/bin/clearcache https://halucok.me/menu2/clearcache && chmod +x /usr/bin/clearcache
+wget -O /usr/bin/connections https://halucok.me/menu2/connections && chmod +x /usr/bin/connections
+wget -O /usr/bin/create https://halucok.me/menu2/create && chmod +x /usr/bin/create
+wget -O /usr/bin/create_random https://create_random/menu2/create_random && chmod +x /usr/bin/create_random
+wget -O /usr/bin/create_trial https://halucok.me/menu2/create_trial && chmod +x /usr/bin/create_trial
+wget -O /usr/bin/delete_expired https://halucok.me/menu2/delete_expired && chmod +x /usr/bin/delete_expired
+wget -O /usr/bin/diagnose https://halucok.me/menu2/diagnose && chmod +x /usr/bin/diagnose
+wget -O /usr/bin/edit_openssh https://halucok.me/menu2/edit_openssh && chmod +x /usr/bin/edit_openssh
+wget -O /usr/bin/edit_openvpn https://halucok.me/menu2/edit_openvpn && chmod +x /usr/bin/edit_openvpn
+wget -O /usr/bin/edit_ports https://halucok.me/menu2/edit_ports && chmod +x /usr/bin/edit_ports
+wget -O /usr/bin/edit_squid3 https://halucok.me/menu2/edit_squid3 && chmod +x /usr/bin/edit_squid3
+wget -O /usr/bin/edit_stunnel4 https://halucok.me/menu2/edit_stunnel4 && chmod +x /usr/bin/edit_stunnel4
+wget -O /usr/bin/locket_list https://halucok.me/menu2/locket_list && chmod +x /usr/bin/locket_list
+wget -O /usr/bin/menuu https://halucok.me/menu2/menuu && chmod +x /usr/bin/menuu
+wget -O /usr/bin/options https://halucok.me/menu2/options && chmod +x /usr/bin/options
+wget -O /usr/bin/ram https://halucok.me/menu2/ram && chmod +x /usr/bin/ram
+wget -O /usr/bin/reboot_sys https://halucok.me/menu2/reboot_sys && chmod +x /usr/bin/reboot_sys
+wget -O /usr/bin/reboot_sys_auto https://halucok.me/menu2/reboot_sys_auto && chmod +x /usr/bin/reboot_sys_auto
+wget -O /usr/bin/restart_services https://halucok.me/menu2/restart_services && chmod +x /usr/bin/restart_services
+wget -O /usr/bin/server https://halucok.me/menu2/server && chmod +x /usr/bin/server
+wget -O /usr/bin/set_multilogin_autokill https://halucok.me/menu2/set_multilogin_autokill && chmod +x /usr/bin/set_multilogin_autokill
+wget -O /usr/bin/set_multilogin_autokill_lib https://halucok.me/menu2/set_multilogin_autokill_lib && chmod +x /usr/bin/set_multilogin_autokill_lib
+wget -O /usr/bin/show_ports https://halucok.me/menu2/show_ports && chmod +x /usr/bin/show_ports
+wget -O /usr/bin/user_delete https://halucok.me/menu2/user_delete && chmod +x /usr/bin/user_delete
+wget -O /usr/bin/user_details https://halucok.me/menu2/user_details && chmod +x /usr/bin/user_details
+wget -O /usr/bin/user_details_lib https://halucok.me/menu2/user_details_lib && chmod +x /usr/bin/user_details_lib
+wget -O /usr/bin/user_extend https://halucok.me/menu2/user_extend && chmod +x /usr/bin/user_extend
+wget -O /usr/bin/user_list https://halucok.me/menu2/user_list && chmod +x /usr/bin/user_list
+wget -O /usr/bin/user_lock https://halucok.me/menu2/user_lock && chmod +x /usr/bin/user_lock
+wget -O /usr/bin/user_unlock https://halucok.me/menu2/user_unlock && chmod +x /usr/bin/user_unlock
+
+
+
