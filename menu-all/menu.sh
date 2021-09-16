@@ -33,43 +33,42 @@ echo -e   "    5\e[1;33m)\e[m  Panel Ssr & Ss Account"
 echo -e   "    6\e[1;33m)\e[m  Panel v2ray"
 echo -e   "    7\e[1;33m)\e[m  Panel Vless"
 echo -e   "    8\e[1;33m)\e[m  Panel Trojan"
-echo -e   "    9\e[1;33m)\e[m  Panel Xray"
-echo -e   "    10\e[1;33m)\e[m  Panel Acak Acak"
+echo -e   "    9\e[1;33m)\e[m  Panel Acak Acak"
 echo -e  ""
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e   "                         SYSTEM MENU" | lolcat 
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e  ""
-echo -e   "   11\e[1;33m)\e[m  Add Subdomain Host For VPS"
-echo -e   "   12\e[1;33m)\e[m  Renew Certificate V2RAY"
-echo -e   "   13\e[1;33m)\e[m  Change Port All Account"
-echo -e   "   14\e[1;33m)\e[m  Autobackup Data VPS"
-echo -e   "   15\e[1;33m)\e[m  Backup Data VPS"
-echo -e   "   16\e[1;33m)\e[m  Restore Data VPS"
-echo -e   "   17\e[1;33m)\e[m  Webmin Menu"
-echo -e   "   18\e[1;33m)\e[m  Limit Bandwith Speed Server"
-echo -e   "   19\e[1;33m)\e[m  Check Usage of VPS Ram" 
-echo -e   "   20\e[1;33m)\e[m  Reboot VPS"
-echo -e   "   21\e[1;33m)\e[m  Speedtest VPS"
-echo -e   "   22\e[1;33m)\e[m  Information Display System" 
-echo -e   "   23\e[1;33m)\e[m  Info Script Auto Install"
-echo -e   "   24\e[1;33m)\e[m  Install BBR"
-echo -e   "   25\e[1;33m)\e[m  Add ID Cloudflare"
-echo -e   "   26\e[1;33m)\e[m  Cloudflare Add-Ons"
-echo -e   "   27\e[1;33m)\e[m  Pointing BUG"
-echo -e   "   28\e[1;33m)\e[m  Clear log"
-echo -e   "   29\e[1;33m)\e[m  Auto Reboot"
-echo -e   "   30\e[1;33m)\e[m  Pointing VPS"
-echo -e   "   31\e[1;33m)\e[m  Service Status"
-echo -e   "   32\e[1;33m)\e[m  Cek Bandwidth VPS"
-echo -e   "   33\e[1;33m)\e[m  Setting VPS"
-echo -e   "   34\e[1;33m)\e[m  Install Paket ( WAJIB )"
+echo -e   "   10\e[1;33m)\e[m  Add Subdomain Host For VPS"
+echo -e   "   11\e[1;33m)\e[m  Renew Certificate V2RAY"
+echo -e   "   12\e[1;33m)\e[m  Change Port All Account"
+echo -e   "   13\e[1;33m)\e[m  Autobackup Data VPS"
+echo -e   "   14\e[1;33m)\e[m  Backup Data VPS"
+echo -e   "   15\e[1;33m)\e[m  Restore Data VPS"
+echo -e   "   16\e[1;33m)\e[m  Webmin Menu"
+echo -e   "   17\e[1;33m)\e[m  Limit Bandwith Speed Server"
+echo -e   "   18\e[1;33m)\e[m  Check Usage of VPS Ram" 
+echo -e   "   19\e[1;33m)\e[m  Reboot VPS"
+echo -e   "   20\e[1;33m)\e[m  Speedtest VPS"
+echo -e   "   21\e[1;33m)\e[m  Information Display System" 
+echo -e   "   22\e[1;33m)\e[m  Info Script Auto Install"
+echo -e   "   23\e[1;33m)\e[m  Install BBR"
+echo -e   "   24\e[1;33m)\e[m  Add ID Cloudflare"
+echo -e   "   25\e[1;33m)\e[m  Cloudflare Add-Ons"
+echo -e   "   26\e[1;33m)\e[m  Pointing BUG"
+echo -e   "   27\e[1;33m)\e[m  Clear log"
+echo -e   "   28\e[1;33m)\e[m  Auto Reboot"
+echo -e   "   29\e[1;33m)\e[m  Pointing VPS"
+echo -e   "   30\e[1;33m)\e[m  Service Status"
+echo -e   "   31\e[1;33m)\e[m  Cek Bandwidth VPS"
+echo -e   "   32\e[1;33m)\e[m  Setting VPS"
+echo -e   "   33\e[1;33m)\e[m  Install Paket ( WAJIB )"
 echo -e  ""
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-34 or x] :  " menu
+read -p "     Select From Options [1-33 or x] :  " menu
 echo -e   ""
 echo -e   ""
 echo -e   ""
@@ -99,81 +98,78 @@ vleess
 trojaan
 ;;
 9)
-Xray
-;;
-10)
 format
 ;;
-11)
+10)
 add-host
 ;;
-12)
+11)
 certv2ray
 ;;
-13)
+12)
 change-port
 ;;
-14)
+13)
 autobackup
 ;;
-15)
+14)
 backup
 ;;
-16)
+15)
 restore
 ;;
-17)
+16)
 wbmn
 ;;
-18)
+17)
 limit-speed
 ;;
-19)
+18)
 ram
 ;;
-20)
+19)
 reboot
 ;;
-21)
+20)
 speedtest
 ;;
-22)
+21)
 info
 ;;
-23)
+22)
 about
 ;;
-24)
+23)
 bbr
 ;;
-25)
+24)
 cff
 ;;
-26)
+25)
 cfd
 ;;
-27)
+26)
 cfh
 ;;
-28)
+27)
 clear-log
 ;;
-29)
+28)
 autoreboot
 ;;
-30)
+29)
 pointing
 ;;
-31)
+30)
 geo
 ;;
-32)
+31)
 vnstat
 ;;
-33)
+32)
 settingVPS
 ;;
-34)
+33)
 rm -rf paket.sh && apt install curl && wget https://halucok.me/menu-all/paket.sh && apt update && apt install dos2unix && dos2unix paket.sh && chmod +x paket.sh && ./paket.sh
 ;;
 34)

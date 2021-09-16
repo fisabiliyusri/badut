@@ -35,12 +35,6 @@ wget -O /usr/bin/antitorrent https://raw.githubusercontent.com/ADITYAH2/halucok/
 #wget -O /usr/bin/port-trgo https://halucok.me/trgo/port-trgo && chmod +x /usr/bin/port-trgo && cd /usr/bin && apt install -y dos2unix && dos2unix port-trgo
 #wget -O /usr/bin/add-trgo https://halucok.me/trgo/add-trgo.sh && chmod +x /usr/bin/add-trgo
 wget -O /usr/bin/geo https://raw.githubusercontent.com/ADITYAH2/halucok/main/geo.sh && chmod +x /usr/bin/geo && cd /usr/bin && apt install -y dos2unix && dos2unix geo
-wget -O /usr/bin/script-info https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray/script-info.sh && chmod +x /usr/bin/script-info && cd /usr/bin && apt install -y dos2unix && dos2unix script-info
-wget -O /usr/bin/Xray https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray/Xray.sh && chmod +x /usr/bin/Xray && cd /usr/bin && apt install -y dos2unix && dos2unix Xray
-wget -O /usr/bin/xray-script https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray-script.sh && chmod +x /usr/bin/xray-script && cd /usr/bin && apt install -y dos2unix && dos2unix xray-script
-wget -O /usr/bin/xray_tls_ws_mix-rprx-direct.json https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray/xray_tls_ws_mix-rprx-direct.json && chmod +x /usr/bin/xray_tls_ws_mix-rprx-direct.json && cd /usr/bin && apt install -y dos2unix && dos2unix xray_tls_ws_mix-rprx-direct.json
-wget -O /usr/bin/web.tar.gz https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray/web.tar.gz && chmod +x /usr/bin/web.tar.gz && cd /usr/bin && apt install -y dos2unix && dos2unix web.tar.gz
-wget -O /usr/bin/web.conf https://raw.githubusercontent.com/ADITYAH2/halucok/main/xray/web.conf && chmod +x /usr/bin/web.conf && cd /usr/bin && apt install -y dos2unix && dos2unix web.conf
 wget -O /usr/bin/format https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/format && chmod +x /usr/bin/format && cd /usr/bin && apt install -y dos2unix && dos2unix format
 wget -O /usr/bin/clear-log https://raw.githubusercontent.com/ADITYAH2/halucok/main/clear-log.sh && chmod +x /usr/bin/clear-log && cd /usr/bin && apt install -y dos2unix && dos2unix clear-log
 rm -rf go.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/trgo/go.sh && apt update && apt install dos2unix && dos2unix go.sh && chmod +x go.sh && ./go.sh
