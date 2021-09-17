@@ -1,5 +1,5 @@
 #!/bin/bash
-#shadowsocks-libev obfs install by GEO GABUT
+#shadowsocks-libev obfs install by geo
 source /etc/os-release
 OS=$ID
 ver=$VERSION_ID
@@ -92,7 +92,13 @@ wget -O add-ss "https://raw.githubusercontent.com/ADITYAH2/halucok/main/add-ss.s
 wget -O del-ss "https://raw.githubusercontent.com/ADITYAH2/halucok/main/del-ss.sh"
 wget -O cek-ss "https://raw.githubusercontent.com/ADITYAH2/halucok/main/cek-ss.sh"
 wget -O renew-ss "https://raw.githubusercontent.com/ADITYAH2/halucok/main/renew-ss.sh"
-#wget -O /etc/shadowsocks-libev/tls.json https://halucok.me/menu-all/tls.json && chmod +x /etc/shadowsocks-libev/tls.json
+chmod +x add-ss
+chmod +x del-ss
+chmod +x cek-ss
+chmod +x renew-ss
+cd
+rm -f /root/sodosok.sh
+/etc/shadowsocks-libev/tls.json
 #wget -O /etc/shadowsocks-libev/http.json https://halucok.me/menu-all/http.json && chmod +x /etc/shadowsocks-libev/http.json
 chmod +x add-ss
 chmod +x del-ss
