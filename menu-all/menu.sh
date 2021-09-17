@@ -61,14 +61,13 @@ echo -e   "   28\e[1;33m)\e[m  Auto Reboot"
 echo -e   "   29\e[1;33m)\e[m  Pointing VPS"
 echo -e   "   30\e[1;33m)\e[m  Service Status"
 echo -e   "   31\e[1;33m)\e[m  Cek Bandwidth VPS"
-echo -e   "   32\e[1;33m)\e[m  Setting VPS"
-echo -e   "   33\e[1;33m)\e[m  Install Paket ( WAJIB )"
+echo -e   "   32\e[1;33m)\e[m  Install Paket ( WAJIB )"
 echo -e  ""
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m═══════════════════════════════════════════════════════════" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-33 or x] :  " menu
+read -p "     Select From Options [1-32 or x] :  " menu
 echo -e   ""
 echo -e   ""
 echo -e   ""
@@ -167,9 +166,6 @@ geo
 vnstat
 ;;
 32)
-settingVPS
-;;
-33)
 rm -rf paket.sh && apt install curl && wget https://halucok.me/menu-all/paket.sh && apt update && apt install dos2unix && dos2unix paket.sh && chmod +x paket.sh && ./paket.sh
 ;;
 34)
