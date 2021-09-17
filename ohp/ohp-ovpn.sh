@@ -22,7 +22,11 @@ Port_OHP='8383';
 #Installing ohp Server
 cd 
 wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp.sh"
+wget -O /usr/local/bin/ohp-db "https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-db.sh"
 chmod +x /usr/local/bin/ohp
+chmod +x /usr/local/bin/ohp.sh
+chmod +x /usr/local/bin/ohp-db
 
 #Buat File OpenVPN TCP OHP
 cat > /etc/openvpn/tcp-ohp.ovpn <<END
