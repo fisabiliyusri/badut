@@ -37,10 +37,11 @@ wget -O /usr/bin/antitorrent https://raw.githubusercontent.com/ADITYAH2/halucok/
 wget -O /usr/bin/geo https://raw.githubusercontent.com/ADITYAH2/halucok/main/geo.sh && chmod +x /usr/bin/geo && cd /usr/bin && apt install -y dos2unix && dos2unix geo
 wget -O /usr/bin/format https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/format && chmod +x /usr/bin/format && cd /usr/bin && apt install -y dos2unix && dos2unix format
 wget -O /usr/bin/clear-log https://raw.githubusercontent.com/ADITYAH2/halucok/main/clear-log.sh && chmod +x /usr/bin/clear-log && cd /usr/bin && apt install -y dos2unix && dos2unix clear-log
-rm -rf go.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/trgo/go.sh && apt update && apt install dos2unix && dos2unix go.sh && chmod +x go.sh && ./go.sh
+#rm -rf go.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/trgo/go.sh && apt update && apt install dos2unix && dos2unix go.sh && chmod +x go.sh && ./go.sh
 rm -rf ohp-ovpn.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-ovpn.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp-ovpn.sh && chmod +x ohp-ovpn.sh && ./ohp-ovpn.sh
-rm -rf ohp-db.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-db.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp-db.sh && chmod +x ohp-db.sh && ./ohp-db.sh
-rm -rf ohp.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp.sh && chmod +x ohp.sh && ./ohp.sh
+#rm -rf ohp-db.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-db.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp-db.sh && chmod +x ohp-db.sh && ./ohp-db.sh
+#rm -rf ohp && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp && chmod +x ohp && ./ohp
+#rm -rf ohp.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp.sh && chmod +x ohp.sh && ./ohp.sh
 systemctl restart shadowsocks-libev-server@tls
 systemctl restart shadowsocks-libev-server@http
 #wget -O /usr/bin/accounts https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu2/accounts && chmod +x /usr/bin/accounts
