@@ -17,7 +17,7 @@ echo "Start Update"
 cd /usr/bin
 wget -O /usr/bin/pointing https://raw.githubusercontent.com/ADITYAH2/halucok/main/pointing.sh && chmod +x /usr/bin/pointing && cd /usr/bin && apt install -y dos2unix && dos2unix pointing
 wget -O /usr/bin/editsm https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/editsm && chmod +x /usr/bin/editsm
-wget -O /usr/bin/bench-network https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/bench-network && chmod +x /usr/bin/bench-network
+wget -O /usr/bin/bench-network https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/bench-network && chmod +x /usr/bin/bench-network && cd /usr/bin && apt install -y dos2unix && dos2unix bench-network
 wget -O /usr/bin/log-limit https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/log-limit && chmod +x /usr/bin/log-limit
 wget -O /usr/bin/updatescript https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/updatescript && chmod +x /usr/bin/updatescript
 wget -O /usr/bin/user-generate https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-generate && chmod +x /usr/bin/user-generate
