@@ -22,7 +22,7 @@ wget -O /usr/bin/log-limit https://raw.githubusercontent.com/ADITYAH2/halucok/ma
 wget -O /usr/bin/updatescript https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/updatescript && chmod +x /usr/bin/updatescript
 wget -O /usr/bin/user-generate https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-generate && chmod +x /usr/bin/user-generate
 wget -O /usr/bin/user-delete-expired https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-delete-expired && chmod +x /usr/bin/user-delete-expired
-wget -O /usr/bin/user-list https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-list && chmod +x /usr/bin/editsm
+wget -O /usr/bin/user-list https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-list && chmod +x /usr/bin/user-list
 wget -O /usr/bin/user-lock https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-lock && chmod +x /usr/bin/user-lock
 wget -O /usr/bin/user-password https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-password && chmod +x /usr/bin/user-password
 wget -O /usr/bin/user-unlock https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/user-unlock && chmod +x /usr/bin/user-unlock
@@ -42,6 +42,8 @@ rm -rf ohp-ovpn.sh && apt install curl && wget https://raw.githubusercontent.com
 #rm -rf ohp-db.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-db.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp-db.sh && chmod +x ohp-db.sh && ./ohp-db.sh
 #rm -rf ohp && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp && chmod +x ohp && ./ohp
 #rm -rf ohp.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget -O /etc/shadowsocks-libev/tls.json https://halucok.me/menu-all/tls.json && chmod +x /etc/shadowsocks-libev/tls.json
+wget -O /etc/shadowsocks-libev/http.json https://halucok.me/menu-all/http.json && chmod +x /etc/shadowsocks-libev/http.json
 systemctl restart shadowsocks-libev-server@tls
 systemctl restart shadowsocks-libev-server@http
 #wget -O /usr/bin/accounts https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu2/accounts && chmod +x /usr/bin/accounts
