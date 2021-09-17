@@ -2,5 +2,4 @@
 
 clear
 neofetch
-cat /root/log-install.txt
-echo ""
+echo -e "by GEO GABUT" | lolcat""

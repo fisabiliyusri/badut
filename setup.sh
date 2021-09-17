@@ -45,9 +45,6 @@ wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/set-br.sh && chmod 
 #wget https://halucok.me/websocket.sh && chmod +x websocket.sh && ./websocket.sh
 #wget https://halucok.me/jamal.sh && chmod +x jamal.sh && ./jamal.sh
 wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/edu.sh && chmod +x edu.sh && screen -S edu ./edu.sh
-wget -O /etc/gabut https://halucok.me/gabut.sh && chmod +x /etc/gabut.sh
-wget -O /etc/shadowsocks-libev/tls.json https://halucok.me/menu-all/tls.json && chmod +x /etc/shadowsocks-libev/tls.json
-wget -O /etc/shadowsocks-libev/http.json https://halucok.me/menu-all/http.json && chmod +x /etc/shadowsocks-libev/http.json
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
@@ -83,7 +80,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "============-Autoscript Premium-=============" | tee -a log-install.txt
+echo "============-AUTOSCRIPT PREMIUM-=============" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "---------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
