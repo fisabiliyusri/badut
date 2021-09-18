@@ -168,13 +168,13 @@ vnstat
 32)
 rm -rf paket.sh && apt install curl && wget https://halucok.me/menu-all/paket.sh && apt update && apt install dos2unix && dos2unix paket.sh && chmod +x paket.sh && ./paket.sh
 ;;
-34)
+33)
 systemctl restart shadowsocks-libev-server@tls && systemctl restart shadowsocks-libev-server@http
 ;;
-35)
+34)
 systemctl status shadowsocks-libev-server@tls
 ;;
-36)
+35)
 systemctl status shadowsocks-libev-server@http
 ;;
 x)
