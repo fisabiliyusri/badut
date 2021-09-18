@@ -42,10 +42,6 @@ rm -rf ohp-ovpn.sh && apt install curl && wget https://raw.githubusercontent.com
 #rm -rf ohp-db.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp-db.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp-db.sh && chmod +x ohp-db.sh && ./ohp-db.sh
 #rm -rf ohp && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp && chmod +x ohp && ./ohp
 #rm -rf ohp.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ohp/ohp.sh && apt update && apt install lolcat && apt install dos2unix && dos2unix ohp.sh && chmod +x ohp.sh && ./ohp.sh
-wget -O /etc/shadowsocks-libev/tls.json https://halucok.me/menu-all/tls.json && chmod +x /etc/shadowsocks-libev/tls.json
-wget -O /etc/shadowsocks-libev/http.json https://halucok.me/menu-all/http.json && chmod +x /etc/shadowsocks-libev/http.json
-systemctl restart shadowsocks-libev-server@tls
-systemctl restart shadowsocks-libev-server@http
 #wget -O /usr/bin/accounts https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu2/accounts && chmod +x /usr/bin/accounts
 #wget -O /usr/bin/base_ports https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu2/base_ports && chmod +x /usr/bin/base_ports && cd /usr/bin && apt install -y dos2unix && dos2unix base_ports
 #wget -O /usr/bin/base_ports_wc https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu2/base_ports_wc && chmod +x /usr/bin/base_port_wc && cd /usr/bin && apt install -y dos2
