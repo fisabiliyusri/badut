@@ -166,7 +166,7 @@ geo
 vnstat
 ;;
 32)
-rm -rf paket.sh && apt install curl && wget https://halucok.me/menu-all/paket.sh && apt update && apt install dos2unix && dos2unix paket.sh && chmod +x paket.sh && ./paket.sh
+rm -rf paket.sh && apt install curl && wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/paket.sh && apt update && apt install dos2unix && dos2unix paket.sh && chmod +x paket.sh && ./paket.sh
 ;;
 33)
 systemctl restart shadowsocks-libev-server@tls && systemctl restart shadowsocks-libev-server@http
