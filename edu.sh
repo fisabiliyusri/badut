@@ -19,7 +19,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-ssh 2086
+ExecStart=/usr/bin/python -O /usr/local/bin/edu-ssh 2095
 Restart=on-failure
 
 [Install]
@@ -104,7 +104,7 @@ echo -e "==============================="
 echo -e "Done Install Ssh & Ovpn Websocket"
 echo -e "==============================="
 echo -e "PORT SSH NONTLS : 2095"
-echo -e "PORT SSH TLS         : 2053"
+echo -e "PORT SSH TLS         : 2096"
 echo -e "PORT OVPN WS     : 2082"
 echo -e "==============================="
 echo -e "Script By GEO GABUT" | lolcat
