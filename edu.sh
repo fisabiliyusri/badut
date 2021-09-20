@@ -104,7 +104,7 @@ echo -e "==============================="
 echo -e "Done Install Ssh & Ovpn Websocket"
 echo -e "==============================="
 echo -e "PORT SSH NONTLS : 2095"
-echo -e "PORT SSH TLS         : 2096"
+echo -e "PORT SSH TLS         : 443"
 echo -e "PORT OVPN WS     : 2082"
 echo -e "==============================="
 echo -e "Script By GEO GABUT" | lolcat
